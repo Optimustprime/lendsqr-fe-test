@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import AllRoutes from "./routes";
 import { BrowserRouter } from "react-router-dom";
-import UserProvider from "./globalState";
+import UserProvider from "./globalAuth";
 
 const App: FC = () => {
   return (

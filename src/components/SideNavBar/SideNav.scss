@@ -5,22 +5,20 @@
       font-size: 16px;
       line-height: 19px;
       padding-left: 30px;
-      font-family: WorkSans;
+      font-family: WorkSans, serif;
       color: rgba(33, 63, 125, 0.7);
     }
     a {
-      font-family: WorkSans;
+      font-family: WorkSans, serif;
       display: block;
       margin-bottom: 10px;
       color: rgba(33, 63, 125, 0.7);
-      padding: 11px;
       text-decoration: none;
-      padding-left: 30px;
+      padding: 11px 11px 11px 30px;
       border-left: 3px solid #ffffff;
       font-weight: 400;
       font-size: 16px;
       line-height: 19px;
-      display: flex;
       align-items: center;
       svg {
         margin-right: 10px;
@@ -31,7 +29,7 @@
       }
     }
     h6 {
-      font-family: WorkSans;
+      font-family: WorkSans, serif;
       font-weight: 400;
       color: #545f7d;
       padding-left: 33px;
@@ -52,6 +50,18 @@
       padding-bottom: 80px;
       margin-bottom: 40px;
       cursor: pointer;
+    }
+    .version {
+      margin-top: 43px;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 14px;
+    }
+    #logout{
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
     }
   }
   @media (max-width: 1150px) {

@@ -5,8 +5,8 @@ import "./Landing.scss";
 import welcome from "../../assets/images/pablo-sign-in.png";
 import { LogoIcon } from "../icons";
 import Btn from "../Button";
-import { IUser } from "../../globalState";
-import { getUsersApi } from "../../api";
+import { IUser } from "../../globalAuth";
+import { getUsersApi } from "../../apiConfig";
 
 function LogInPage() {
   const navigate = useNavigate();

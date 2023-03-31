@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { IUser, UserContext, UserContextType } from "../../globalState";
+import { IUser, UserContext, UserContextType } from "../../globalAuth";
 import {
   CaretDown,
   LogoIcon,

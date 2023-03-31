@@ -8,7 +8,7 @@ import {
   FilterIcon,
   ViewIcon,
 } from "../icons";
-import { IUser, UserContext, UserContextType } from "../../globalState";
+import { IUser, UserContext, UserContextType } from "../../globalAuth";
 
 type RowProps = {
   openFilter: () => void;

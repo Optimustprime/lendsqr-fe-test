@@ -1,5 +1,5 @@
 import React from "react";
-import { IUser } from "../../globalState";
+import { IUser } from "../../globalAuth";
 import { ProfileAvatar, RatingFill, RatingIcon } from "../icons";
 import loader from "../../assets/images/load-loading.gif";
 

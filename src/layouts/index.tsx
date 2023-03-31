@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Header from "../components/Header";
 import { OpenSideNav } from "../components/icons";
-import SideNav from "../components/SideNav";
+import SideNav from "../components/SideNavBar";
 
 type LayoutProps = {
   children: React.ReactNode;

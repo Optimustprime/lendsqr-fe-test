@@ -1,6 +1,6 @@
 import React, { FC, useContext } from "react";
 import { NavLink, useNavigate } from "react-router-dom";
-import { UserContext, UserContextType } from "../../globalState";
+import { UserContext, UserContextType } from "../../globalAuth";
 import {
   AuditIcon,
   DashboardIcon,
@@ -118,8 +118,10 @@ const SideNav: FC<CloseInterface> = ({ closeSideNav }) => {
           <SystemsIcons /> Systems Messages
         </NavLink>
         <h5 className="switch logout" onClick={() => handleLogout()}>
-          <LogOutIcon /> Logout
+          <span id="logout"><LogOutIcon /> Logout <br/></span>
+          <span className="version">v1.2.0</span>
         </h5>
+
       </ul>
     </div>
   );

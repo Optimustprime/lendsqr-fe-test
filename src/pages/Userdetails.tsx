@@ -1,4 +1,4 @@
-import UserDetails from "../components/User";
+import UserDetails from "../components/Profile";
 
 const UserDetailsPage = () => {
   return <UserDetails />;

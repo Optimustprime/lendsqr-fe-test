@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { IUser, UserContext, UserContextType } from "../../globalState";
+import { IUser, UserContext, UserContextType } from "../../globalAuth";
 import Cards from "./Cards";
 import Pagination from "./Pagination";
 import "./Users.scss";

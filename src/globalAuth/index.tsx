@@ -1,5 +1,5 @@
 import React, { createContext } from "react";
-import { getUsersApi, getUserApi } from "../api";
+import { getUsersApi, getUserApi } from "../apiConfig";
 import dayjs from "dayjs";
 import { compareDates, formatNumber } from "../utils";
 

@@ -1,6 +1,6 @@
 import { useContext, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { UserContext, UserContextType } from "../../globalState";
+import { UserContext, UserContextType } from "../../globalAuth";
 
 import { BackIcon } from "../icons";
 import OtherUserInfo from "./OtherUserInfo";

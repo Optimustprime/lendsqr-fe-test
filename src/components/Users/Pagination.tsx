@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { NextIcon, PrevIcon } from "../icons";
+import arrow from '../../assets/images/Vector.svg';
 
 type PaginateType = {
   currentPage: number;
@@ -30,7 +31,9 @@ const Pagination = ({
     <div className="pagination">
       <div className="total">
         <span>Showing</span>
-        <span className="control">{currentPage}</span>
+        <span className="control">{currentPage}
+          <span className="arrow"><img src={arrow}/></span>
+          </span>
         <span>out of {numberOfPages}</span>
       </div>
 
@@ -39,8 +42,17 @@ const Pagination = ({
           <PrevIcon />
         </button>
 
-        {numbring.map((num, idx) => (
-          <span onClick={() => setPage(num)}>{num}</span>
+        {/*{numbring.map((num, idx) => (*/}
+        {/*  <span onClick={() => setPage(num)}>{num}</span>*/}
+        {/*))}*/}
+        {numbring.map((num) => (
+            <span
+                key={num}
+                onClick={() =>setPage(num)}
+                style={{ color: num === currentPage ? "#545F7D" : "#545F7D99" }}
+            >
+          {num}
+  </span>
         ))}
 
         <button type="button" onClick={next}>

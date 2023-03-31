@@ -198,11 +198,17 @@
         background: rgba(33, 63, 125, 0.1);
         border-radius: 4px;
         display: inline-block;
-        padding: 8px 20px;
+        padding: 6px 12px;
         margin: 0 10px;
         cursor: pointer;
+        height: 30px;
+        width: 80px;
         color: #213f7d;
         font-weight: 600;
+      }
+      .arrow{
+        height: 15px;
+        float: right;
       }
     }
     .numbring {
@@ -488,6 +494,7 @@
           display: block;
         }
       }
+
     }
 
     .pagination {
@@ -505,6 +512,10 @@
         .control {
           padding: 4px 20px;
           font-size: 12px;
+        }
+        .arrow {
+          height: 12px;
+          float: right;
         }
       }
       .numbring {

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { IUser } from "../../globalState";
+import { IUser } from "../../globalAuth";
 import TableHead from "./TableHead";
 import UserRow from "./UserRow";
 import loader from "../../assets/images/load-loading.gif";

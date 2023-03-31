@@ -1,5 +1,5 @@
 import React from "react";
-import { UsersOverviewType } from "../../globalState";
+import { UsersOverviewType } from "../../globalAuth";
 import { ActiveUsers, AllUsers, LoansUsers, SavingUsers } from "../icons";
 
 type OverviewType = {
