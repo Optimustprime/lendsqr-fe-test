@@ -116,7 +116,7 @@ function LogInPage() {
                   ref={passwordRef}
                 />
                 <button onClick={() => setIsShow(!isShow)} type="button">
-                  SHOW
+                  {isShow ? 'HIDE' : 'SHOW'}
                 </button>
               </div>
               <span
