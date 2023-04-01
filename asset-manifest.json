@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/lendsqr-fe-test/static/css/main.eadfccf1.css",
-    "main.js": "/lendsqr-fe-test/static/js/main.8a9d3fc2.js",
+    "main.js": "/lendsqr-fe-test/static/js/main.97f0c906.js",
     "static/js/787.dabe7441.chunk.js": "/lendsqr-fe-test/static/js/787.dabe7441.chunk.js",
     "static/media/WorkSans-SemiBold.ttf": "/lendsqr-fe-test/static/media/WorkSans-SemiBold.8988ce2e3e8957a63db8.ttf",
     "static/media/WorkSans-Regular.ttf": "/lendsqr-fe-test/static/media/WorkSans-Regular.ca211a55c3d9d8690c63.ttf",
@@ -12,11 +12,11 @@
     "index.html": "/lendsqr-fe-test/index.html",
     "static/media/Vector.svg": "/lendsqr-fe-test/static/media/Vector.164e5535c299fe47bb9f79404f276a4f.svg",
     "main.eadfccf1.css.map": "/lendsqr-fe-test/static/css/main.eadfccf1.css.map",
-    "main.8a9d3fc2.js.map": "/lendsqr-fe-test/static/js/main.8a9d3fc2.js.map",
+    "main.97f0c906.js.map": "/lendsqr-fe-test/static/js/main.97f0c906.js.map",
     "787.dabe7441.chunk.js.map": "/lendsqr-fe-test/static/js/787.dabe7441.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eadfccf1.css",
-    "static/js/main.8a9d3fc2.js"
+    "static/js/main.97f0c906.js"
   ]
 }
