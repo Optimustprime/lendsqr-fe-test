@@ -1,3 +1,4 @@
+
 .users {
   width: 90%;
   margin: 0 auto 266px;
@@ -5,6 +6,7 @@
   h3 {
     margin: 40px 0;
   }
+
   .cards {
     display: flex;
     justify-content: space-between;
@@ -17,20 +19,24 @@
       border-radius: 4px;
       width: 23%;
       padding: 29px;
+
       h3 {
         margin: 12px 0;
         margin-bottom: 0;
         font-weight: 600;
       }
+
       p {
         line-height: 16px;
         text-transform: uppercase;
       }
+
       svg {
         margin-bottom: 14px;
       }
     }
   }
+
   .usertable {
     background: #ffffff;
     border: 1px solid rgba(33, 63, 125, 0.06);
@@ -41,6 +47,7 @@
     margin-bottom: 30px;
     position: relative;
   }
+
   .tableHead {
     display: flex;
     justify-content: space-between;
@@ -61,22 +68,28 @@
         margin-left: 10px;
       }
     }
+
     & > p:nth-child(1) {
       width: 16%;
     }
+
     & > p:nth-child(3) {
       width: 20%;
     }
+
     & > p:nth-child(4) {
       width: 16%;
     }
+
     & > p:nth-child(5) {
       width: 19%;
     }
+
     & > p:nth-child(6) {
       width: 13%;
     }
   }
+
   .row {
     display: flex;
     justify-content: space-between;
@@ -84,33 +97,41 @@
     padding: 21px 0;
     border-bottom: 1px solid rgba(33, 63, 125, 0.1);
     gap: 15px;
+
     p {
       width: 15%;
       word-break: break-all;
       word-wrap: break-word;
     }
+
     & > p:nth-child(1) {
       width: 16%;
+
       .text {
         width: 100%;
         display: block;
         font-size: 14px;
       }
     }
+
     & > p:nth-child(3) {
       width: 20%;
     }
+
     & > p:nth-child(4) {
       width: 16%;
     }
+
     & > p:nth-child(5) {
       width: 19%;
     }
+
     & > p:nth-child(6) {
       width: 13%;
       display: flex;
       justify-content: space-between;
       align-items: center;
+
       span {
         display: inline-block;
         padding: 7px 10px;
@@ -119,18 +140,21 @@
         line-height: 16px;
         border-radius: 100px;
       }
+
       svg {
         cursor: pointer;
       }
 
       .actions {
         position: relative;
+
         & > button {
           border: none;
           padding: 5px 10px;
           background-color: inherit;
           cursor: pointer;
         }
+
         .options {
           position: absolute;
           top: 20px;
@@ -142,11 +166,13 @@
           width: 150px;
           z-index: 2;
           border-radius: 4px;
+
           button {
             width: 100%;
             background-color: white;
             border: none;
             display: block;
+
             a,
             span {
               display: block;
@@ -157,41 +183,50 @@
               padding: 10px;
               cursor: pointer;
             }
+
             svg {
               margin-right: 10px;
             }
+
             &:hover {
               background-color: rgba(119, 119, 119, 0.1);
             }
           }
         }
+
         .open {
           display: block;
         }
       }
     }
   }
+
   .inactive {
     background: rgba(84, 95, 125, 0.06);
     text-align: center;
     color: #545f7d;
   }
+
   .pending {
     background: rgba(233, 178, 0, 0.1);
     color: #e9b200;
   }
+
   .blacklist {
     background: rgba(228, 3, 59, 0.1);
     color: #e4033b;
   }
+
   .active {
     background: rgba(57, 205, 98, 0.06);
     color: #39cd62;
   }
+
   .pagination {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     .total {
       .control {
         border: none;
@@ -206,21 +241,27 @@
         color: #213f7d;
         font-weight: 600;
       }
-      .arrow{
+
+      .arrow {
         height: 15px;
         float: right;
       }
     }
+
     .numbring {
+      width: 50%;
       span {
-        margin: 0 10px;
+        margin: 0 4px;
         color: rgba(84, 95, 125, 0.6);
+        padding: 3px 5px;
         cursor: pointer;
       }
+
       .active {
         color: rgba(84, 95, 125, 1);
         border: 1px solid red;
       }
+
       button {
         border: none;
         background: rgba(33, 63, 125, 0.1);
@@ -228,15 +269,19 @@
         display: inline-block;
         padding: 8px;
         cursor: pointer;
+        width: 8%;
+
         &:hover {
           background: rgba(33, 63, 125, 0.2);
         }
       }
     }
   }
+
   .mobileRow {
     display: none;
   }
+
   .filter {
     position: absolute;
     top: 70px;
@@ -247,6 +292,7 @@
     box-shadow: 3px 5px 20px rgba(0, 0, 0, 0.04);
     border-radius: 4px;
     padding: 20px 0;
+
     .close {
       text-align: right;
       width: 85%;
@@ -260,6 +306,7 @@
         border: 1px solid rgba(84, 95, 125, 0.14);
       }
     }
+
     h6 {
       font-size: 14px;
       line-height: 16px;
@@ -267,10 +314,12 @@
       font-weight: 400;
       margin-bottom: 6px;
     }
+
     .group {
       width: 85%;
       margin: 0 auto;
       margin-top: 20px;
+
       input,
       select {
         width: 100%;
@@ -278,12 +327,15 @@
         background: #ffffff;
         border: 1px solid rgba(33, 63, 125, 0.2);
         border-radius: 8px;
+
         &::placeholder {
           opacity: 0.2;
         }
       }
+
       .date {
         position: relative;
+
         span {
           position: absolute;
           top: 0;
@@ -301,6 +353,7 @@
         }
       }
     }
+
     .btnGroup {
       display: flex;
       justify-content: space-between;
@@ -313,71 +366,7 @@
       }
     }
   }
-  @media (max-width: 1150px) {
-    width: 95%;
-  }
 
-  @media (max-width: 1000px) {
-    h3 {
-      margin: 20px 0;
-      font-size: 16px;
-    }
-    .cards {
-      & > div {
-        padding: 20px;
-        h3 {
-          margin: 0px 0;
-          font-size: 16px;
-        }
-        p {
-          font-size: 12px;
-          line-height: 14px;
-        }
-        svg {
-          margin-bottom: 12px;
-        }
-      }
-    }
-    .usertable {
-      margin-top: 20px;
-      padding: 20px;
-      margin-bottom: 20px;
-    }
-    .tableHead {
-      p {
-        font-size: 11px;
-        svg {
-          margin-left: 10px;
-          cursor: pointer;
-        }
-      }
-    }
-    .row {
-      padding: 14px 0;
-      p {
-        font-size: 12px;
-      }
-      & > p:nth-child(6) {
-        span {
-          padding: 5px 10px;
-          font-size: 12px;
-          line-height: 14px;
-        }
-        .actions {
-          .options {
-            width: 130px;
-            button {
-              padding: 8px;
-              font-size: 12px;
-              a {
-                font-size: 12px;
-              }
-            }
-          }
-        }
-      }
-    }
-  }
   @media (max-width: 760px) {
     & > h3 {
       margin: 10px 0;
@@ -529,7 +518,7 @@
           margin: 4px;
           display: inline-block;
           padding: 3px 5px;
-          background-color: rgba(84, 95, 125, 0.11);
+          //background-color: rgba(84, 95, 125, 0.11);
         }
         .active {
           color: rgba(84, 95, 125, 1);
@@ -541,7 +530,7 @@
           display: inline-block;
           padding: 8px;
           cursor: pointer;
-          width: 100%;
+          width: 8%;
           align-self: flex-end;
         }
       }
@@ -558,4 +547,127 @@
       z-index: 2;
     }
   }
+  @media (max-width: 560px) {
+    .pagination {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .total {
+        .control {
+          border: none;
+          background: rgba(33, 63, 125, 0.1);
+          border-radius: 4px;
+          display: inline-block;
+          padding: 6px 12px;
+          margin: 0 10px;
+          cursor: pointer;
+          height: 30px;
+          width: 80px;
+          color: #213f7d;
+          font-weight: 600;
+        }
+
+        .arrow {
+          height: 15px;
+          float: right;
+        }
+      }
+
+      .numbring {
+        width: 84%;
+        span {
+          margin: 0 1px;
+          color: rgba(84, 95, 125, 0.6);
+          padding: 3px 4px;
+          cursor: pointer;
+        }
+
+        .active {
+          color: rgba(84, 95, 125, 1);
+          border: 1px solid red;
+        }
+
+        button {
+          border: none;
+          background: rgba(33, 63, 125, 0.1);
+          border-radius: 4px;
+          display: inline-block;
+          padding: 8px;
+          cursor: pointer;
+          width: 8%;
+
+          &:hover {
+            background: rgba(33, 63, 125, 0.2);
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 1150px) {
+    width: 95%;
+  }
+
+  @media (max-width: 1000px) {
+    h3 {
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    .cards {
+      & > div {
+        padding: 20px;
+        h3 {
+          margin: 0px 0;
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 14px;
+        }
+        svg {
+          margin-bottom: 12px;
+        }
+      }
+    }
+    .usertable {
+      margin-top: 20px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .tableHead {
+      p {
+        font-size: 11px;
+        svg {
+          margin-left: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+    .row {
+      padding: 14px 0;
+      p {
+        font-size: 12px;
+      }
+      & > p:nth-child(6) {
+        span {
+          padding: 5px 10px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+        .actions {
+          .options {
+            width: 130px;
+            button {
+              padding: 8px;
+              font-size: 12px;
+              a {
+                font-size: 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
 }

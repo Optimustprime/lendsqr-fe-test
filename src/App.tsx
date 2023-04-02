@@ -1,16 +1,18 @@
 import React, { FC } from "react";
 import AllRoutes from "./routes";
-import { BrowserRouter } from "react-router-dom";
+import {
+    HashRouter as Router, Route, Routes
+} from "react-router-dom";
 import UserProvider from "./globalAuth";
 
 const App: FC = () => {
   return (
     <div className="App">
-      <BrowserRouter>
-        <UserProvider>
-          <AllRoutes />
-        </UserProvider>
-      </BrowserRouter>
+      <Router>
+            <UserProvider>
+                <AllRoutes />
+            </UserProvider>
+      </Router>
     </div>
   );
 };

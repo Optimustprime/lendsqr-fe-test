@@ -1,4 +1,4 @@
-import axios from "axios";
+const axios = require('axios');
 import config from "../configs";
 
 const { BASE_URL } = config;
