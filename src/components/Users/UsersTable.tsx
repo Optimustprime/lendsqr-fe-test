@@ -15,7 +15,7 @@ export type FilterPayload = {
   status: string | undefined;
 };
 
-type UserType = {
+export type UserType = {
   filterUsers: IUser[];
   users: IUser[];
   loading: boolean;
