@@ -1,6 +1,18 @@
-# This a Frontend Assessement by Lendsqr
+# Lendsqr Fintech Company Frontend Project
 Live Demo: https://optimustprime.github.io/lendsqr-fe-test/
-This project was bootstrapped with Create React App - Typescript
+This project is a frontend application that has been built as part of the assessment process for a frontend developer position at Lendsqr Fintech Company.
+
+The application is built using React, and it involves consuming data from a backend API that is provided with the project.
+
+Project Setup
+Prerequisites
+To run this project on your local machine, you must have the following software installed:
+
+Node.js
+npm or yarn
+Installation
+To install and run the project, follow these steps:
+
 
 ### `Tools and packages used`
 React JS, Typescript, SCSS and Day JS
@@ -46,6 +58,55 @@ User can change the status of a user by clicking on the action button.
 User can also view the user details. 
 
 
+Project Structure
+The project has the following folder structure:
+
+src/
+├── components/
+│   ├── Header/
+│   │   ├── Header.tsx
+│   │   └── Header.css
+│   ├── SideNavBar/
+│   │   ├── SideNavBar.tsx
+│   │   └── SideNavBar.css
+│   └── icons/
+│       ├── OpenSideNav.tsx
+│       ├── CloseSideNav.tsx
+│       └── Logout.tsx
+├── contexts/
+│   ├── UserContext.tsx
+│   └── AuthContext.tsx
+├── pages/
+│   ├── Dashboard/
+│   │   ├── Dashboard.tsx
+│   │   └── Dashboard.css
+│   └── Login/
+│       ├── Login.tsx
+│       └── Login.css
+├── utils/
+│   └── api.ts
+├── App.tsx
+└── index.tsx
+
+Components
+The components/ directory contains all the reusable UI components used throughout the application. Each component is composed of a TypeScript file (.tsx) and a CSS file (.scss).
+
+Contexts
+The contexts/ directory contains the React contexts used in the application, which are responsible for managing the application state. There are two contexts, UserContext and AuthContext.
+
+Pages
+The pages/ directory contains the React components that correspond to the different pages of the application. Each page is composed of a TypeScript file (.tsx) and a CSS file (.css).
+
+Utils
+The utils/ directory contains utility functions used throughout the application. In this case, the api.ts file contains functions for making HTTP requests to the backend API.
+
+App and Index
+The App.tsx file is the entry point of the application, and it is responsible for rendering the different pages of the application based on the current URL path.
+
+The index.tsx file is responsible for rendering the App component to the DOM.
+
+Conclusion
+This README file provides an overview of the Lendsqr Fintech Company Frontend Project, including its setup and folder structure. The application is built using React and involves consuming data from a backend API that is provided with the project.
 
 
 
