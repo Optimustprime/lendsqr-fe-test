@@ -1,5 +1,5 @@
 # This a Frontend Assessement by Lendsqr
-Live Demo: https://optimustprime-lendsqr-fe-test.vercel.app/
+Live Demo: https://optimustprime.github.io/lendsqr-fe-test/
 This project was bootstrapped with Create React App - Typescript
 
 ### `Tools and packages used`
