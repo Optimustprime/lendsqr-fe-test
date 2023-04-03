@@ -112,6 +112,13 @@ This README file provides an overview of the Lendsqr Fintech Company Frontend Pr
 
 
 
+![image](https://user-images.githubusercontent.com/73552453/229386711-ca746cc3-6209-48f6-b98b-ce8f0f65752e.png)
+![image](https://user-images.githubusercontent.com/73552453/229386734-d1c445c8-99f6-425d-9b62-0fdfa2a2bfd8.png)
+![image](https://user-images.githubusercontent.com/73552453/229386751-10d2250f-3bc5-4619-8326-752de7cdb278.png)
+![image](https://user-images.githubusercontent.com/73552453/229386791-686d8152-a312-4969-86d3-0e4ee26cd8dc.png)
+![image](https://user-images.githubusercontent.com/73552453/229386859-b787cef4-7bbe-44ea-a7b5-86399b4fd81b.png)
+![image](https://user-images.githubusercontent.com/73552453/229386878-2e12ae40-203d-493b-b30f-15bbb90c8212.png)
+![image](https://user-images.githubusercontent.com/73552453/229386945-1ce475ff-7b99-4b74-b17e-26f7cc7b2272.png)
 
 
 
