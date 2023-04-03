@@ -63,7 +63,9 @@ The project has the following folder structure:
 
 src/
 ├── components/
+
 │   ├── Header/
+
 │   │   ├── Header.tsx
 │   │   └── Header.css
 │   ├── SideNavBar/
