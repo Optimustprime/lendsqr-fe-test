@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/lendsqr-fe-test/static/css/main.eadfccf1.css",
-    "main.js": "/lendsqr-fe-test/static/js/main.97f0c906.js",
+    "main.css": "/lendsqr-fe-test/static/css/main.ea1e779a.css",
+    "main.js": "/lendsqr-fe-test/static/js/main.9057df82.js",
     "static/js/787.dabe7441.chunk.js": "/lendsqr-fe-test/static/js/787.dabe7441.chunk.js",
     "static/media/WorkSans-SemiBold.ttf": "/lendsqr-fe-test/static/media/WorkSans-SemiBold.8988ce2e3e8957a63db8.ttf",
     "static/media/WorkSans-Regular.ttf": "/lendsqr-fe-test/static/media/WorkSans-Regular.ca211a55c3d9d8690c63.ttf",
     "static/media/pablo-sign-in.png": "/lendsqr-fe-test/static/media/pablo-sign-in.698d5a8dc9c347e43895.png",
     "static/media/AvenirNextLTPro-Bold.otf": "/lendsqr-fe-test/static/media/AvenirNextLTPro-Bold.711a4eb654bf1139f123.otf",
     "static/media/AvenirNextLTPro-Regular.otf": "/lendsqr-fe-test/static/media/AvenirNextLTPro-Regular.94f2f163d4b698242fef.otf",
+    "static/media/axios.cjs": "/lendsqr-fe-test/static/media/axios.33cfa09f5297bf2e21f8.cjs",
     "static/media/load-loading.gif": "/lendsqr-fe-test/static/media/load-loading.eba840cec11d7f7dc545.gif",
     "index.html": "/lendsqr-fe-test/index.html",
     "static/media/Vector.svg": "/lendsqr-fe-test/static/media/Vector.164e5535c299fe47bb9f79404f276a4f.svg",
-    "main.eadfccf1.css.map": "/lendsqr-fe-test/static/css/main.eadfccf1.css.map",
-    "main.97f0c906.js.map": "/lendsqr-fe-test/static/js/main.97f0c906.js.map",
+    "main.ea1e779a.css.map": "/lendsqr-fe-test/static/css/main.ea1e779a.css.map",
+    "main.9057df82.js.map": "/lendsqr-fe-test/static/js/main.9057df82.js.map",
     "787.dabe7441.chunk.js.map": "/lendsqr-fe-test/static/js/787.dabe7441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eadfccf1.css",
-    "static/js/main.97f0c906.js"
+    "static/css/main.ea1e779a.css",
+    "static/js/main.9057df82.js"
   ]
 }
