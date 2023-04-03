@@ -43,7 +43,9 @@ body{
   src: url("../assets/fonts/Avenir_Next/AvenirNextLTPro-Regular.otf");
   font-weight: 400;
 }
-
+.openSideNav{
+  z-index: 30;
+}
 .global_container {
   max-width: 1440px;
   margin: 0 auto;
